@@ -16,7 +16,7 @@ spec:
          spec:
              containers:
                  - name: node
-                   image: ikhsannugs/node-cosmicjs:latest
+                   image: ikhsannugs/node-cosmicjs:$BUILD_NUMBER
                    ports:
                      - name: http
                        containerPort: 3000
