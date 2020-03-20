@@ -1,5 +1,5 @@
 env.DOCKER_REGISTRY = 'ikhsannugs'
-env.DOCKER_IMAGE_NAME = 'test-land'
+env.DOCKER_IMAGE_NAME = 'node-cosmicjs'
 node('master') {
     stage('Git Pull') {
           checkout scm
