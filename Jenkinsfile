@@ -12,7 +12,7 @@ node('master') {
     }
           stage('Deploy to Server') {
           sh 'sed -i "s/BUILD_NUMBER/$BUILD_NUMBER/g" cosmic.yaml'    
-          sh "docker container run -d -p 3000:3000 nodejs-sample $DOCKER_REGISTRY/$DOCKER_IMAGE_NAME:${BUILD_NUMBER}"
+          sh "docker container run -d -p 3000:3000 --name nodejs $DOCKER_REGISTRY/$DOCKER_IMAGE_NAME:${BUILD_NUMBER}"
     }
     
 }
