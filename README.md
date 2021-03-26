@@ -1,4 +1,4 @@
-# Landing Page
+# LANDING PAGE
 ![Cosmic Landing Page](https://cosmicjs.imgix.net/d853eea0-c663-11e6-9d4e-3b627b472fc5-landing-page.png?w=1500)
 ### [View Demo](https://cosmicjs.com/apps/landing-page/demo)
 ### Getting Started
